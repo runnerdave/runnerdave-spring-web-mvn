@@ -1,4 +1,5 @@
 com/runnerdave/initializer/AppInitializer.class
+com/runnerdave/service/HelloWorldService.class
 com/runnerdave/config/AppConfig.class
 com/runnerdave/controller/IndexController.class
 com/runnerdave/config/WebMvcConfig.class

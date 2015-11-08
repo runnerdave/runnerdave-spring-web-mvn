@@ -1,19 +1,19 @@
 package com.runnerdave.initializer;
 
+import javax.servlet.ServletContext;
+import javax.servlet.ServletException;
+import javax.servlet.ServletRegistration;
+
 import org.springframework.web.WebApplicationInitializer;
 import org.springframework.web.context.ContextLoaderListener;
 import org.springframework.web.context.WebApplicationContext;
 import org.springframework.web.context.support.AnnotationConfigWebApplicationContext;
 import org.springframework.web.servlet.DispatcherServlet;
 
-import javax.servlet.ServletContext;
-import javax.servlet.ServletException;
-import javax.servlet.ServletRegistration;
-
 public class AppInitializer implements WebApplicationInitializer {
 
     private static final String CONFIG_LOCATION = "com.runnerdave.config";
-    private static final String MAPPING_URL = "/*";
+    private static final String MAPPING_URL = "/";
 
     @Override
     public void onStartup(ServletContext servletContext) throws ServletException {

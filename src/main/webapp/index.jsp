@@ -4,13 +4,13 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Insert title here</title>
+<title>${title}</title>
 </head>
 <body>
-	<h1>Home page</h1>
-	<p>This is a Home Page.</p>
+	<h1>P&aacute;gina central</h1>
+	<p>Esta es la p&aacute;gina central.</p>
 	<p>
-		<a href="hello-page.html">Hello world link</a>
+		<a href="hello-page.html">hola mundo link</a>
 	</p>
 </body>
 </html>
